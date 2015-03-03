@@ -1,7 +1,8 @@
 # Sublime Text 3 Plugin, it executes a command on file save
 
-1. set the cammnd base on project, bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows), then input "Project: Edit"
-'''js
+## set the cammnd base on project, bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows), then input "Project: Edit".
+
+'''javascript
 {
     "folders":
     [
@@ -16,5 +17,6 @@
     }
 }
 '''
-2. run the cammand under project directory, pass the path of the modified file as argument
-3. run cammand in background, preventing the Sublime user interface from freezing
+
+## run the cammand under project directory, pass the path of the modified file as argument
+## run cammand in background, preventing the Sublime user interface from freezing
